@@ -22,8 +22,7 @@ static Scanner userInput = new Scanner (System.in);
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String name = battleStart();
-		damage(name);	
+		String name = battleStart();	
 		int pokemonHP = damage(name);
 		statsTable(name, pokemonHP);
 	}
@@ -59,7 +58,7 @@ static Scanner userInput = new Scanner (System.in);
 		int damage = (int) ((((2 * level + 10 )/ (250)) + ((attack / defense) * base) + 2) * modifier);		//calculates damage
 		System.out.println("Alakazam sustained " + damage + " points damage.");
 		int newHP = hp - damage;		//finds new HP after subtracting damage
-		System.out.println("HP, after damage, are mow " + newHP);		//prints new HP of Alakazam
+		System.out.println("HP, after damage, are now " + newHP);		//prints new HP of Alakazam
 		return newHP;		//returns new HP
 	}
 	
@@ -68,7 +67,7 @@ static Scanner userInput = new Scanner (System.in);
 		System.out.println("NAME: " + name);
 		System.out.println("LEVEL: 40");
 		System.out.println("------------------------------");
-		System.out.println("HP: " + HP);
+		System.out.println("HP: " + HP); 					//assuming the the program is asking for the new HP, not the original
 		System.out.println("ATTACK: 52");
 		System.out.println("DEFENSE: 51");
 		System.out.println("SP. ATK: 121");

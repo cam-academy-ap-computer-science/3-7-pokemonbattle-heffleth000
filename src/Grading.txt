@@ -1,6 +1,6 @@
-Total Grade: 25/25
+Total Grade: 24/25
 
-Correct Output: 10/10
+Correct Output: 9/10
 User Interface: 5/5
 Return Values:  3/3
 Parameters:     3/3
@@ -13,3 +13,6 @@ You did use "HP" as a variable name at one point.  In the future, you'll want to
 names do not start with capital letters.  That one could have been "hp", or you could do like you did earlier and make it
 "pokemonHP", or you could use a trick programmers use often by adding the word "this" and making it "thisHP".  Something
 to keep in mind for the future.
+
+One point off because your "modifier" calculation neglected to multiply your random number times the "STAB" value.  You
+don't end up using the STAB at all, because you forgot to multiply it into that calculation.

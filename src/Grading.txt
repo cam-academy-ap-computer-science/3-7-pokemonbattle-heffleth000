@@ -1,0 +1,15 @@
+Total Grade: 25/25
+
+Correct Output: 10/10
+User Interface: 5/5
+Return Values:  3/3
+Parameters:     3/3
+Pseudocode:     2/2
+Style Guide:    2/2
+
+Great work!
+
+You did use "HP" as a variable name at one point.  In the future, you'll want to find some way to make sure your variable
+names do not start with capital letters.  That one could have been "hp", or you could do like you did earlier and make it
+"pokemonHP", or you could use a trick programmers use often by adding the word "this" and making it "thisHP".  Something
+to keep in mind for the future.
